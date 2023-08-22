@@ -1,0 +1,4 @@
+{
+    "baseURL": "http://api.openweathermap.org/data/3.0/",
+    "APIKey" : "576984e21f44a787efb956e46226ca82"
+}

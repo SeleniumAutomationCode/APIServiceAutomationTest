@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "jest": "^29.6.3",
+    "jest-html-reporter": "^3.10.2",
+    "jest-html-reporters": "^3.1.4",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test1": "jest --config=jest.config.js"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ],
+    "coverageDirectory": "./output/code-coverage/",
+    "reporters": [
+      "default",
+      "jest-html-reporter"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
