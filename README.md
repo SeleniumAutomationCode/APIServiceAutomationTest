@@ -54,7 +54,7 @@ using git bash commond prompt
 5. Retrieve the newly registered station with a valid API key and validate its details.
 6. Retrieve a registered station without an API key and validate the error response.
 - package.json:
-   after installed npm , jest and supertest library the will setting up under devDependencies
+   after installed npm , jest and supertest library these will available under devDependencies
    And Added html report coverage configuration
 - utils: Created here reusable compenents for API reqeust using supertest library
 - JsonData: Maintained Request payload data for post request
